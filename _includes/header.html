@@ -1,0 +1,70 @@
+<header>
+    <div class="row">
+        <div class="col-lg-2 col-md-2 col-sm-3 col-xs-4 logo">
+            <a href="{% if page.lang == 'en' %}/{% else %}/accueil/{% endif %}">
+                <table cellspacing="0">
+                    <tbody>
+                    <tr height="32">
+                        <td>&nbsp;&nbsp;<img src="/static/img/logo.png"></td>
+                        <td class="small"> &nbsp; MS BGD <br> &nbsp; 2017</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </a>
+        </div>
+        <div class="col-lg-2 col-md-2 visible-lg visible-md social-network">
+            <ul class="line social-network">
+                {% for link in site.data.social %}
+                <li><a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-lg-4 visible-lg menu">
+            <ul class="line">
+                {% for tab in site.data.menu %}
+                {% if forloop.index != 1 %}
+                |
+                {% endif %}
+                <li {% if page.location == tab.location %}class="menu-active"{% endif %}><a href="{{ tab.link.[page.lang] }}">{{ tab.title.[page.lang] }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-5 col-sm-6 col-xs-5 search">
+            <input name="search" type="text" placeholder="{% if page.lang == 'en' %}Search...{% else %}Trouver...{% endif %}">
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 search-js">
+            <a href="javascript:">
+                <i class="fa fa-search small"></i>
+            </a>
+        </div>
+        <div class="col-lg-1 visible-lg lang">
+            {% include lang.html %}
+        </div>
+        <div class="col-md-2 col-sm-2 col-xs-2 hidden-lg settings-icon settings-js">
+            <a href="javascript:">
+                <i class="fa fa-bars"></i>&nbsp;&nbsp;
+            </a>
+        </div>
+    </div>
+    <div class="settings" style="display: none">
+        <ul>
+            {% for tab in site.data.menu %}
+            <hr>
+            <li><a href="{{ tab.link.[page.lang] }}">{{ tab.title.[page.lang] }}</a></li>
+            {% endfor %}
+            <hr>
+            <li>
+                <ul class="line">
+                {% for link in site.data.social %}
+                    <li><a href="{{ link.link }}" title="{{ link.name }}"><i class="fa {{ link.icon }}"></i></a></li>
+                {% endfor %}
+                </ul>
+            </li>
+            <hr>
+            <li>
+                {% include lang.html %}
+            </li>
+            <hr>
+        </ul>
+    </div>
+</header>

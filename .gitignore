@@ -1,0 +1,12 @@
+# Jekyll
+/_site/
+/.bundle/
+
+# Sass
+/.sass-cache/
+
+# Gedit
+*.*~
+
+# JetBrains
+/.idea/

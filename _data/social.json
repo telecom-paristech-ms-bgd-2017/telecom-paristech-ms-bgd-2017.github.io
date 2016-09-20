@@ -1,0 +1,17 @@
+[
+  {
+    "icon": "fa-github",
+    "name": "Github",
+    "link": "https://github.com/telecom-paristech-ms-bgd-2017/"
+  },
+  {
+    "icon": "fa-globe",
+    "name": "WebSite",
+    "link": "http://www.telecom-paristech.fr/formation-continue/masteres-specialises/big-data/points-forts.html"
+  },
+  {
+    "icon": "fa-list-alt",
+    "name": "Meetup",
+    "link": "https://www.meetup.com/Master-Big-Data-Telecom-ParisTech/"
+  }
+]
