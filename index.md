@@ -14,8 +14,7 @@ This website allows to post articles about data science and software engineering
 You can insert maths formula, code, video or image easily.
 
 Each article is written in [MarkDown]. If one part of your article has an syntax too specific, you can write [HTML] instead, inside your MarkDown document.
-The maths formula use [LateX] syntax thanks to [MathJax]. And to insert image or video, use the macro `include` offers by [Jekyll].  
-See more precisely bellow.
+The maths formula use [LateX] syntax thanks to [MathJax]. And to insert image or video, use the `include` macro offered by [Jekyll].  
 
 Your article has metadata and content, here an [example].
 
@@ -67,18 +66,18 @@ Open your navigator at `http://127.0.0.1:4000/` and look at `posts tab`.
 > code:
 
 <pre>
-This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is one the same line than the text.
+This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is on the same line than the text.
 
-This formula is on its own line:
+This formula has on its own line:
 
 $$ x^4 + x^3 + x^2 + x = 1 $$
 </pre>
 
 > rendering:
 
-This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is one the same line than the text.
+This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is on the same line than the text.
 
-This formula is on its own line:
+This formula has on its own line:
 
 $$ x^4 + x^3 + x^2 + x = 1 $$
 
