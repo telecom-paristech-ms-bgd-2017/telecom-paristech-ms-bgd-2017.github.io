@@ -68,7 +68,7 @@ Open your navigator at `http://127.0.0.1:4000/` and look at `posts tab`.
 <pre>
 This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is on the same line than the text.
 
-This formula has on its own line:
+This formula has its own line:
 
 $$ x^4 + x^3 + x^2 + x = 1 $$
 </pre>
@@ -77,7 +77,7 @@ $$ x^4 + x^3 + x^2 + x = 1 $$
 
 This formula $ \int_{0}^{+\infty} e^{\frac{1}{2}x^2} = 1$ is on the same line than the text.
 
-This formula has on its own line:
+This formula has its own line:
 
 $$ x^4 + x^3 + x^2 + x = 1 $$
 
