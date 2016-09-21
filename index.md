@@ -13,7 +13,7 @@ location: home
 This website allows to post articles about data science and software engineering.
 You can insert maths formula, code, video or image easily.
 
-Each article is written in [MarkDown]. If one part of your article has an syntax too specific, you can write [HTML] instead inside your MarKDown document.
+Each article is written in [MarkDown]. If one part of your article has an syntax too specific, you can write [HTML] instead, inside your MarkDown document.
 The maths formula use [LateX] syntax thanks to [MathJax]. And to insert image or video, use the macro `include` offers by [Jekyll].  
 See more precisely bellow.
 
