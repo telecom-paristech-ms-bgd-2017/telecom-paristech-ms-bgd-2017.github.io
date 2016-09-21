@@ -14,7 +14,7 @@ This website allows to post articles about data science and software engineering
 You can insert maths formula, code, video or image easily.
 
 Each article is written in [MarkDown]. If one part of your article has an syntax too specific, you can write [HTML] instead, inside your MarkDown document.
-The maths formula use [LateX] syntax thanks to [MathJax]. And to insert image or video, use the `include` macro offered by [Jekyll].  
+The maths formulae use [LateX] syntax thanks to [MathJax]. And to insert image or video, use the `include` macro offered by [Jekyll].  
 
 Your article has metadata and content, here an [example].
 
@@ -44,7 +44,7 @@ Example 1 <--- content
 
 Follow this stages:
 
-0) Clone this git repository and install the environment (see README.md) 
+0) Clone this git repository and install the environment, see [README.md]. 
 Read and understand this [example].
 
 1) Write an article about a funny subject. Create a file in  `_drafts` folder and
@@ -56,7 +56,7 @@ Open your navigator at `http://127.0.0.1:4000/` and look at `posts tab`.
 3) One time your article is finished, rename it like that `YEAR-MONTH-DAY-<articlename>.md` and move it
  to `_posts` folder. Run jekyll server with `make run`. 
 
-4) You can see you article at URL precised in its metadata, now you can push your article.   
+4) You can see your article at URL precised in its metadata. Now you can push your article.   
 
 
    
