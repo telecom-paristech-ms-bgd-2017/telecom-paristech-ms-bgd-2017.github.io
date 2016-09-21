@@ -6,6 +6,12 @@
     "link": {"en": "/", "fr": "/accueil/"}
   },
   {
+    "icon": "fa-file-text-o",
+    "location": "post",
+    "title": {"en": "Posts", "fr": "Articles"},
+    "link": {"en": "/posts/", "fr": "/articles/"}
+  },
+  {
     "icon": "fa-calendar-o",
     "location": "events",
     "title": {"en": "Events", "fr": "Évènements"},
@@ -16,11 +22,5 @@
     "location": "contributors",
     "title": {"en": "Contributors", "fr": "Contributeurs"},
     "link": {"en": "/contributors/", "fr": "/contributeurs/"}
-  },
-  {
-    "icon": "fa-play",
-    "location": "live",
-    "title": {"en": "Live", "fr": "En direct"},
-    "link": {"en": "/live/", "fr": "/en-direct/"}
   }
 ]

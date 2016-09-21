@@ -16,6 +16,10 @@ body {
     color: #b9bbbc;
 }
 
+ul.no-style {
+    list-style: none;
+}
+
 /* Header */
 
 header {
@@ -209,6 +213,7 @@ footer a {
     margin-top: 50px;
     color: darkgrey;
     padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Language */
@@ -226,5 +231,12 @@ div.language-java::before  {
 div.language-python::before {
     color: #b9bbbc;
     content: url("/static/img/python.png") " Python";
+}
+
+/* Articles */
+
+div.list-posts {
+    padding-bottom: 30px;
+    padding-top: 30px;
 }
 

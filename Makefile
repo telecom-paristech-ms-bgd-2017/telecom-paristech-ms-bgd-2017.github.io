@@ -6,7 +6,7 @@ VERSION = $(shell $(GEM) --version)
 
 .PHONY: usage
 usage:
-	@echo "targets include: usage init all install update run"
+	@echo "targets include: usage init all install update draft run"
 
 .PHONY: all
 all: init update install run
@@ -24,6 +24,10 @@ update:
 	@$(GEM) install rubygems-update
 	@update_rubygems
 	@$(GEM) update --system
+
+.PHONY: draft
+draft:
+	@bundle exec jekyll serve --draft
 
 .PHONY: run
 run:
