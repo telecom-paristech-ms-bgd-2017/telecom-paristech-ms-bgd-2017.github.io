@@ -1,6 +1,13 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: lightgrey;
+}
+
+.container {
+    background-color: white;
+    color: black !important;
+    border: solid 1px grey;
 }
 
 .en:lang(en), .fr:lang(fr) {
@@ -20,6 +27,7 @@ header {
     color: white;
     font-weight: bold;
     font-size: 16px;
+    z-index: 9999;
 }
 
 header div {
@@ -178,12 +186,45 @@ header .breadcrumb {
 
 }
 
+/* Footer */
+
+footer {
+    padding-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    text-align: center;
+    height: 74px;
+}
+
+footer a {
+    color: white;
+    text-decoration: underline;
+}
+
+
 /* Content page */
 
 .content-page {
-    height: 900px;
     margin-top: 50px;
     color: darkgrey;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
+    padding-bottom: 10px;
 }
+
+/* Language */
+
+div.language-bash::before  {
+    color: #b9bbbc;
+    content: url("/static/img/bash.png") " Bash";
+}
+
+div.language-java::before  {
+    color: #b9bbbc;
+    content: url("/static/img/java.png") " Java";
+}
+
+div.language-python::before {
+    color: #b9bbbc;
+    content: url("/static/img/python.png") " Python";
+}
+
