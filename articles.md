@@ -15,7 +15,7 @@ location: posts
         <li>
           {{ post.date | date: '%Y-%m-%d' }} - 
           <a href="{{ post.url }}">{{ post.title | capitalize }}</a>
-          by {{ post.author | capitalize }}.
+          by {{ post.author }}.
           {% for keyword in post.keywords %}
             {{ keyword }};
           {% endfor %}
