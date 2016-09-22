@@ -96,7 +96,7 @@ $$ x^4 + x^3 + x^2 + x = 1 $$
 
 {% include youtube.html id="ahNdJdf867A" description="Big Data"  %}
 
-#### Insert Images
+### Insert Images
 --------------------
 
 > code:
@@ -111,8 +111,10 @@ $$ x^4 + x^3 + x^2 + x = 1 $$
 
 {% include img.html url="/static/img/BigData.jpg" width=500 description="Big Data" %}
 
-#### Insert code
+### Insert code
 --------------------
+
+<br>  
 
 ##### Python
 --------------------
@@ -136,6 +138,8 @@ if __name__ == '__main__':
 if __name__ == '__main__':
     print("Hello")
 ~~~
+
+<br>  
 
 ##### Java
 --------------------
@@ -162,6 +166,7 @@ public class Main {
 }
 ~~~
 
+<br>  
 
 ##### Scala
 --------------------
@@ -188,6 +193,7 @@ object HelloWorld {
 }
 ~~~
 
+<br>  
 
 ##### Bash
 --------------------
@@ -210,6 +216,8 @@ echo "Hello"
 echo "Hello"
 ~~~
 
+<br>  
+
 ##### SQL
 --------------------
 
@@ -218,9 +226,9 @@ echo "Hello"
 <pre>
 ~~~  sql
 SELECT key, value
-FROM   maps
-WHERE  value = 'value'
-ORDER  BY key;
+FROM maps
+WHERE value = 'value'
+ORDER BY key;
 ~~~
 </pre>
 
@@ -228,10 +236,12 @@ ORDER  BY key;
 
 ~~~  sql
 SELECT key, value
-FROM   maps
-WHERE  value = 'value'
-ORDER  BY key;
+FROM maps
+WHERE value = 'value'
+ORDER BY key;
 ~~~
+
+<br>  
 
 ##### JSON
 --------------------
