@@ -7,7 +7,7 @@
   },
   {
     "icon": "fa-file-text-o",
-    "location": "post",
+    "location": "posts",
     "title": {"en": "Posts", "fr": "Articles"},
     "link": {"en": "/posts/", "fr": "/articles/"}
   },
