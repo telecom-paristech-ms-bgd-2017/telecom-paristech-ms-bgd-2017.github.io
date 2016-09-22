@@ -114,24 +114,8 @@ $$ x^4 + x^3 + x^2 + x = 1 $$
 #### Insert code
 --------------------
 
-> code:
-
-<pre>
-~~~  bash
-#/usr/bin/env bash
-
-echo "Hello"
-~~~
-</pre>
-
-> rendering:
-
-~~~  bash
-#/usr/bin/env bash
-
-echo "Hello"
-~~~
-
+##### Python
+--------------------
 
 > code:
 
@@ -153,6 +137,8 @@ if __name__ == '__main__':
     print("Hello")
 ~~~
 
+##### Java
+--------------------
 
 > code:
 
@@ -173,5 +159,117 @@ public class Main {
 	public static void main(String[] args) {
 		System.out.println("Hello");
 	}
+}
+~~~
+
+
+##### Scala
+--------------------
+
+> code:
+
+<pre>
+~~~  scala
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}
+~~~
+</pre>
+
+> rendering:
+
+~~~  scala
+object HelloWorld {
+  def main(args: Array[String]): Unit = {
+    println("Hello, world!")
+  }
+}
+~~~
+
+
+##### Bash
+--------------------
+
+> code:
+
+<pre>
+~~~  bash
+#/usr/bin/env bash
+
+echo "Hello"
+~~~
+</pre>
+
+> rendering:
+
+~~~  bash
+#/usr/bin/env bash
+
+echo "Hello"
+~~~
+
+##### SQL
+--------------------
+
+> code:
+
+<pre>
+~~~  sql
+SELECT key, value
+FROM   maps
+WHERE  value = 'value'
+ORDER  BY key;
+~~~
+</pre>
+
+> rendering:
+
+~~~  sql
+SELECT key, value
+FROM   maps
+WHERE  value = 'value'
+ORDER  BY key;
+~~~
+
+##### JSON
+--------------------
+
+> code:
+
+<pre>
+~~~  json
+{
+    "menu": {
+        "id": "file",
+        "value": "File",
+        "popup": {
+            "menuitem": [
+                { "value": "New", "onclick": "CreateNewDoc()" },
+                { "value": "Open", "onclick": "OpenDoc()" },
+                { "value": "Close", "onclick": "CloseDoc()" }
+            ]
+        }
+    }
+}
+~~~
+</pre>
+
+> rendering:
+
+~~~  json
+{
+    "menu": {
+        "id": "file",
+        "value": "File",
+        "popup": {
+            "menuitem": [
+                { "value": "New", "onclick": "CreateNewDoc()" },
+                { "value": "Open", "onclick": "OpenDoc()" },
+                { "value": "Close", "onclick": "CloseDoc()" }
+            ]
+        }
+    }
 }
 ~~~

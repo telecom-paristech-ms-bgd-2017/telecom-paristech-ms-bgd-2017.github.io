@@ -217,7 +217,7 @@ footer a {
     min-height: 1000px;
 }
 
-/* Language */
+/* Languages */
 
 div.language-bash::before  {
     color: #b9bbbc;
@@ -232,6 +232,21 @@ div.language-java::before  {
 div.language-python::before {
     color: #b9bbbc;
     content: url("/static/img/python.png") " Python";
+}
+
+div.language-sql::before {
+    color: #b9bbbc;
+    content: url("/static/img/sql.png") " SQL";
+}
+
+div.language-json::before {
+    color: #b9bbbc;
+    content: url("/static/img/json.png") " JSON";
+}
+
+div.language-scala::before {
+    color: #b9bbbc;
+    content: url("/static/img/scala.png") " Scala";
 }
 
 /* Articles */
