@@ -214,6 +214,7 @@ footer a {
     color: darkgrey;
     padding-bottom: 10px;
     padding-top: 10px;
+    min-height: 1000px;
 }
 
 /* Language */

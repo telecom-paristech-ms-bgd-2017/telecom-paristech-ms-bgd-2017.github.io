@@ -7,3 +7,5 @@ lang: fr
 permalink: /evenements/
 location: events
 ---
+
+Pas d'évènement pour le moment !
